@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Almarai', sans-serif;
+}
+
+bg-primary {
+    background: #811538 !important;
+    color: white;
+}
+#header{
+    background: #811538 ;
+}
+
+.bg-secondary {
+    background: #5b0d25 !important;
+    color: white;
+}
+
+#header-background {
+    background-image: url("images/pattern.png");
+}
+
+#header {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
+    border-bottom: solid 20px #5b0d25;
+}
+
+#logo-header {
+    position: absolute;
+    z-index: 999;
+    left: 100px;
+    top: 60px;
+}
+
+#logo-img {
+    width: 177PX;
+    height: 300px;
+    -webkit-filter: drop-shadow(5px 5px 30px #222);
+    filter: drop-shadow(5px 5px 30px #222);
+}
+header{
+    background-color: #8A1538 !important;
+    height: 30px;
+}
+.logo{
+    font-size: 20px;
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6px;
+}
+.navigation ul{
+    display: flex;
+} 
+
+ul li a{
+    padding-left: 30px;
+}
+.table{
+    width: 50% !important;
+} 
+input{
+    width: 63px !important;
+}
+tbody{
+    text-align: center !important;
+}
+tbody, td, tfoot, th, thead, tr{
+    text-align: center !important;
+}
+img{
+    width: 50px;
+    height: 40px;
+    border-radius: 11%;
+    -webkit-border-radius: 11%;
+    -moz-border-radius: 11%;
+    -ms-border-radius: 11%;
+    -o-border-radius: 11%;
+}
+
+#img{
+    margin-left: -25px;
+}
+
+.table {
+    margin-left: auto;
+margin-right: auto;
+}

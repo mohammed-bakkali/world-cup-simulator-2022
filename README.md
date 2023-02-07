@@ -1,1 +1,1 @@
-# world-cup-simulator-2022
+# world-cup-simulator2023
